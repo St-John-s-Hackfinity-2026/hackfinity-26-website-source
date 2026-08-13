@@ -82,3 +82,8 @@
 - [x] Add and verify the organization-owned repository and Pages preview links in all remaining setup documentation.
 - [x] Record a direct cell-by-cell audit of columns A–AB for the synchronized controlled registration row.
 - [x] Review every project Markdown setup and delivery guide for current organization-owned repository and preview references.
+- [x] Change the Hackfinity event countdown target to 9 October 2026 across public content and documentation.
+- [ ] Explain and document why GitHub Pages cannot host the current live registration, database, counter, Google Sheets sync, or organizer dashboard features.
+- [ ] Prepare an organization-owned live hosting path that keeps registrations, real-time squad count, Google Sheets sync, and organizer administration active.
+- [ ] Transfer or provision ownership and access so the organizer team, rather than the original personal account, controls required GitHub, Google Sheets, and hosting resources.
+- [ ] Establish the selected organization-owned full-stack live deployment and verify public registration, live counts, Google Sheets sync, and organizer access.

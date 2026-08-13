@@ -36,7 +36,7 @@ const ST_JOHNS_LOGO = `${STATIC_ASSET_ORIGIN}/manus-storage/st-johns-logo_dfa6a2
 const TOOFAN_LOGO = `${STATIC_ASSET_ORIGIN}/manus-storage/toofan-logo_9c6f3908.png`;
 const HOWNWHY_LOGO = `${STATIC_ASSET_ORIGIN}/manus-storage/hownwhy-logo_9c805a47.png`;
 const MISSION_FIELD_IMAGE = `${STATIC_ASSET_ORIGIN}/manus-storage/hackfinity-mission-field_33c665f6.jpg`;
-const LAUNCH_TIMESTAMP = new Date("2026-09-01T00:00:00+05:30").getTime();
+const LAUNCH_TIMESTAMP = new Date("2026-10-09T00:00:00+05:30").getTime();
 
 type Member = { id: string; name: string; grade: string; email: string; phone: string };
 type RegistrationData = {
@@ -138,7 +138,7 @@ function LaunchCountdown() {
   }, []);
 
   return <div className="launch-countdown" aria-label="Countdown to the storm launch">
-    <p>The storm lands — 01.09.2026</p>
+    <p>The storm lands — 09.10.2026</p>
     <div>{Object.entries(remaining).map(([label, value]) => <span key={label}><b>{String(value).padStart(2, "0")}</b><small>{label}</small></span>)}</div>
   </div>;
 }
