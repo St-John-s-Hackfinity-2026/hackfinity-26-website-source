@@ -90,3 +90,6 @@
 - [x] Publish the current organizer dashboard source to the organization repository and provide the static preview with a clear route to the live protected admin panel.
 - [x] Remove GitHub Pages preview-only wording and present the organization Pages site as the public Hackfinity website.
 - [x] Publish the updated organization Pages website and verify its public registration and organizer-service handoffs.
+- [x] Write a school-managed Google, GitHub, organizer, and live-hosting ownership-transfer runbook with official Google references.
+- [ ] Select the organization-owned live-hosting control route and provision two school-managed control accounts.
+- [ ] Perform and record a controlled end-to-end registration after school-managed Google, organizer, and hosting access is in place.
