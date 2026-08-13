@@ -13,6 +13,7 @@ import {
   Bolt,
   ChevronDown,
   Crosshair,
+  ExternalLink,
   Menu,
   Minus,
   Plus,
@@ -266,7 +267,7 @@ export default function Home() {
   const submit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (STATIC_PREVIEW) {
-      toast.info("This GitHub Pages preview is visual only. Use the full website to submit registrations.");
+      toast.info("Registration is handled through the secure Hackfinity event service.");
       return;
     }
     const membersForSubmission = form.participationType === "group" ? activeMembers.map(({ name, grade, email, phone }) => ({ name, grade, email, phone })) : [];
@@ -380,7 +381,7 @@ export default function Home() {
         <div className="registration-shell">
           <aside className="registration-aside"><div className="aside-orb"><Radio /></div><h3>Get on the map.</h3><p>Register solo or assemble a squad of up to five. Your data goes directly to the organizing team.</p><ul><li>Use a contact the organizers can reach</li><li>Choose the track closest to your solution</li><li>Describe your idea in your own words</li></ul></aside>
           <form className="registration-form" onSubmit={submit}>
-            {STATIC_PREVIEW && <div className="static-preview-notice"><ShieldCheck /> GitHub Pages preview: registration, dashboard, live count, and Google Sheets sync require the full deployed website.</div>}
+            {STATIC_PREVIEW && <div className="static-preview-notice"><ShieldCheck /> <span>Official Hackfinity ’26 website. Registration, live status, and organizer operations are securely managed through the event service.</span><a href="https://neonreg-copxxdu4.manus.space/#register">Open secure registration <ExternalLink /></a></div>}
             <div className="form-topline"><span>Encrypted registration uplink</span><span>Fields marked * are required</span></div>
             <div className="mode-switch" role="radiogroup" aria-label="Participation type"><button type="button" className={form.participationType === "group" ? "active" : ""} onClick={() => setField("participationType", "group")}><UsersRound /> Squad (2—5)</button><button type="button" className={form.participationType === "individual" ? "active" : ""} onClick={() => setField("participationType", "individual")}><Target /> Individual</button></div>
             <div className="form-grid">

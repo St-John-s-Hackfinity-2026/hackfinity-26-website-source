@@ -22,8 +22,12 @@ import { toast } from "sonner";
 
 type RouterOutput = inferRouterOutputs<AppRouter>;
 type Squad = RouterOutput["registrations"]["list"][number];
+const STATIC_PREVIEW = import.meta.env.VITE_STATIC_PREVIEW === "true";
+const LIVE_ORGANIZER_URL = "https://neonreg-copxxdu4.manus.space/organizer";
 
 export default function OrganizerDashboard() {
+  if (STATIC_PREVIEW) return <StaticOrganizerHandoff />;
+
   const { user, loading } = useAuth();
 
   if (loading) return <div className="organizer-loading"><Loader2 className="animate-spin" /> Checking organizer access…</div>;
@@ -31,6 +35,17 @@ export default function OrganizerDashboard() {
   if (user.role !== "admin") return <main className="organizer-gate"><ShieldAlert /><h1>Access restricted</h1><p>This account is not assigned organizer privileges. Contact the site owner if you need access.</p></main>;
 
   return <DashboardLayout><OrganizerContent /></DashboardLayout>;
+}
+
+function StaticOrganizerHandoff() {
+  return <main className="static-organizer-handoff">
+    <div className="static-organizer-mark"><ShieldAlert /></div>
+    <p>Organizer access</p>
+    <h1>Secure squad command center</h1>
+    <span>Registration records, Google Sheets configuration, and organizer controls are protected through the Hackfinity event service.</span>
+    <Button asChild><a href={LIVE_ORGANIZER_URL}>Open organizer dashboard <ExternalLink /></a></Button>
+    <a className="static-organizer-source" href="https://github.com/St-John-s-Hackfinity-2026/hackfinity-26-website-source" target="_blank" rel="noreferrer">View organization source <ExternalLink /></a>
+  </main>;
 }
 
 function OrganizerContent() {

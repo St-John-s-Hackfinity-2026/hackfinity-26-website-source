@@ -6,13 +6,13 @@ The site stores every squad registration in its database first. Once the organiz
 
 ## Official Hackfinity Links
 
-The project is managed by the **St-John-s-Hackfinity-2026** GitHub organization. The full website handles registrations and Google Sheets sync; the Pages site is a visual-only public preview.
+The project is managed by the **St-John-s-Hackfinity-2026** GitHub organization. GitHub Pages provides the public Hackfinity website, while the connected live event service handles registration processing and Google Sheets sync.
 
 | Resource | Link |
 |---|---|
 | Full registration website | https://neonreg-copxxdu4.manus.space |
 | Organization-managed source repository | https://github.com/St-John-s-Hackfinity-2026/hackfinity-26-website-source |
-| GitHub Pages visual preview | https://st-john-s-hackfinity-2026.github.io/hackfinity-26-pages-preview/ |
+| GitHub Pages public website | https://st-john-s-hackfinity-2026.github.io/hackfinity-26-pages-preview/ |
 
 > Use the production **`/exec`** URL in the dashboard. Google documents that the `/dev` URL is a testing deployment and is available only to script editors; it is not appropriate for public registrations. [1]
 

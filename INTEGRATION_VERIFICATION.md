@@ -48,8 +48,8 @@ The project is now linked to the organization-managed source repository:
 
 https://github.com/St-John-s-Hackfinity-2026/hackfinity-26-website-source
 
-The migrated visual GitHub Pages preview was opened and verified at:
+The migrated GitHub Pages public website was opened and verified at:
 
 https://st-john-s-hackfinity-2026.github.io/hackfinity-26-pages-preview/
 
-The GitHub Pages preview remains visual-only; real registrations and Google Sheets delivery run only through the full live site.
+GitHub Pages serves the public website interface. Real registrations and Google Sheets delivery are securely processed by the connected live event service.
