@@ -71,3 +71,14 @@
 - [x] Make the mobile mission-timeline neon fill reliably visible during scrolling and taps.
 - [x] Contain GitHub Pages preview registration controls within their form panel on narrow mobile screens.
 - [x] Prevent St. John’s, TOOFAN, and HowNWhy logo chips from clipping on mobile while retaining their white chip backgrounds on mobile and desktop.
+- [x] Guide creation of a GitHub organization and transfer of the Hackfinity Pages repository to obtain an organization-branded preview URL.
+- [x] Connect the supplied Google Sheet to receive neatly organized registration rows containing every form field and individual member details.
+- [x] Verify a fully populated synced registration row across all leader and Member 2–5 columns in the Google Sheet.
+- [x] Identify, deploy, and verify the organization-owned GitHub Pages preview URL after the repository transfer.
+- [x] Update dashboard and setup documentation with the verified organization-owned repository and preview links.
+- [x] Inspect all leader and Member 2–5 cells of the synchronized Google Sheet row, including expected empty cells for unused members.
+- [x] Add the organization-owned repository and Pages preview references to every remaining relevant setup and organizer document surface.
+- [x] Audit every leader and Member 2–5 cell in the synchronized Google Sheet row, including all expected blank class, email, and phone cells for unused members.
+- [x] Add and verify the organization-owned repository and Pages preview links in all remaining setup documentation.
+- [x] Record a direct cell-by-cell audit of columns A–AB for the synchronized controlled registration row.
+- [x] Review every project Markdown setup and delivery guide for current organization-owned repository and preview references.
