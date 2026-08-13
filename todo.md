@@ -87,6 +87,6 @@
 - [ ] Prepare an organization-owned live hosting path that keeps registrations, real-time squad count, Google Sheets sync, and organizer administration active.
 - [ ] Transfer or provision ownership and access so the organizer team, rather than the original personal account, controls required GitHub, Google Sheets, and hosting resources.
 - [ ] Establish the selected organization-owned full-stack live deployment and verify public registration, live counts, Google Sheets sync, and organizer access.
-- [ ] Publish the current organizer dashboard source to the organization repository and provide the static preview with a clear route to the live protected admin panel.
+- [x] Publish the current organizer dashboard source to the organization repository and provide the static preview with a clear route to the live protected admin panel.
 - [x] Remove GitHub Pages preview-only wording and present the organization Pages site as the public Hackfinity website.
-- [ ] Publish the updated organization Pages website and verify its public registration and organizer-service handoffs.
+- [x] Publish the updated organization Pages website and verify its public registration and organizer-service handoffs.
