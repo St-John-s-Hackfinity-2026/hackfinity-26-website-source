@@ -93,3 +93,10 @@
 - [x] Write a school-managed Google, GitHub, organizer, and live-hosting ownership-transfer runbook with official Google references.
 - [ ] Select the organization-owned live-hosting control route and provision two school-managed control accounts.
 - [ ] Perform and record a controlled end-to-end registration after school-managed Google, organizer, and hosting access is in place.
+- [ ] Select a school-controlled external full-stack hosting provider to replace the current live service address.
+- [ ] Design and implement the required replacements for managed authentication, database, storage, and deployment configuration outside the current hosting platform.
+- [ ] Migrate the live database, Google Sheets webhook, organizer access, and public domain to the selected external host with a tested rollback path.
+- [ ] Keep the Hackfinity registration form on the public page and submit directly to the external live backend without a registration-page redirect.
+- [ ] Extend the school-managed Apps Script web app with a read-only squad-count response and preserve structured registration writes.
+- [ ] Convert the GitHub Pages registration form to submit on-page to Apps Script and refresh the public squad count without using the current live service.
+- [ ] Deploy and verify a controlled same-page registration from GitHub Pages through to the Google Sheet.
