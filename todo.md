@@ -106,3 +106,6 @@
 - [x] Add a prominent on-page registration success panel with clear confirmation and next steps.
 - [x] Provide an organizer command-center access path matching the supplied cyberpunk dashboard reference while keeping student registration data private.
 - [x] Provide and verify a GitHub Pages-safe organizer command-center URL using the static-compatible `?view=organizer` route.
+- [ ] Add a privacy-safe registrations list to the public organizer command center, with protected Google Sheet access for full student records.
+- [x] Center the Visible Squads count label and value in the organizer command-center header.
+- [x] Recolor the public site and organizer command center with St. John’s red, yellow, and white while preserving all existing effects and interactions.
