@@ -117,3 +117,4 @@
 - [x] Replace the remaining cyan mobile timeline active fill with St. John’s yellow/red/white feedback for all five phase cards.
 - [x] Fix the mobile timeline’s 01–05 outline numerals so active states do not clip or leave portions of any numeral unrendered.
 - [x] Apply the St. John’s red, yellow, and white color system consistently across the public organizer panel, including cards, roster table, controls, and interactive states.
+- [x] Diagnose and restore the blank live squad counter on the public GitHub Pages website.
