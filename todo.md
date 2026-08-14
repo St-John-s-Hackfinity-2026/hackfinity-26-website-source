@@ -99,7 +99,7 @@
 - [x] Keep the Hackfinity registration form on the public page and submit directly to Apps Script without a registration-page redirect.
 - [x] Extend the school-managed Apps Script web app with a read-only squad-count response and structured registration writes.
 - [x] Convert the GitHub Pages registration form to submit on-page to Apps Script and refresh the public squad count without using the current live service.
-- [ ] Directly inspect the controlled GitHub Pages registration row in Google Sheets and confirm its key structured columns.
-- [ ] Prevent phone numbers beginning with a plus sign from being interpreted as Google Sheets formulas in Apps Script registrations.
+- [x] Directly inspect the controlled GitHub Pages registration row in Google Sheets and confirm its key structured columns.
+- [x] Prevent phone numbers beginning with a plus sign from being interpreted as Google Sheets formulas in Apps Script registrations.
 - [x] Prevent public GitHub Pages registration submissions from remaining in the Transmitting state when Apps Script delays its response.
 - [x] Configure the public GitHub Pages registration and squad-count client with the newly deployed school Apps Script endpoint.
