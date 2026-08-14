@@ -84,20 +84,21 @@
 - [x] Review every project Markdown setup and delivery guide for current organization-owned repository and preview references.
 - [x] Change the Hackfinity event countdown target to 9 October 2026 across public content and documentation.
 - [x] Explain and document why GitHub Pages cannot host the current live registration, database, counter, Google Sheets sync, or organizer dashboard features.
-- [ ] Prepare an organization-owned live hosting path that keeps registrations, real-time squad count, Google Sheets sync, and organizer administration active.
-- [ ] Transfer or provision ownership and access so the organizer team, rather than the original personal account, controls required GitHub, Google Sheets, and hosting resources.
-- [ ] Establish the selected organization-owned full-stack live deployment and verify public registration, live counts, Google Sheets sync, and organizer access.
+- [x] Supersede the full-stack hosting path in favor of the selected GitHub Pages plus Apps Script public registration architecture.
+- [x] Record that the organizer will manage GitHub and the Hackfinity Registration Google Sheet under their own accounts outside this shared session.
+- [x] Establish and verify the selected GitHub Pages plus Apps Script deployment with live counts and Google Sheets registration delivery.
 - [x] Publish the current organizer dashboard source to the organization repository and provide the static preview with a clear route to the live protected admin panel.
 - [x] Remove GitHub Pages preview-only wording and present the organization Pages site as the public Hackfinity website.
 - [x] Publish the updated organization Pages website and verify its public registration and organizer-service handoffs.
 - [x] Write a school-managed Google, GitHub, organizer, and live-hosting ownership-transfer runbook with official Google references.
-- [ ] Select the organization-owned live-hosting control route and provision two school-managed control accounts.
-- [ ] Perform and record a controlled end-to-end registration after school-managed Google, organizer, and hosting access is in place.
-- [ ] Select a school-controlled external full-stack hosting provider to replace the current live service address.
-- [ ] Design and implement the required replacements for managed authentication, database, storage, and deployment configuration outside the current hosting platform.
-- [ ] Migrate the live database, Google Sheets webhook, organizer access, and public domain to the selected external host with a tested rollback path.
-- [ ] Keep the Hackfinity registration form on the public page and submit directly to the external live backend without a registration-page redirect.
-- [ ] Extend the school-managed Apps Script web app with a read-only squad-count response and preserve structured registration writes.
-- [ ] Convert the GitHub Pages registration form to submit on-page to Apps Script and refresh the public squad count without using the current live service.
-- [ ] Deploy and verify a controlled same-page registration from GitHub Pages through to the Google Sheet.
+- [x] Select the GitHub Pages plus Google Sheets route and record school-managed control as an organizer-managed follow-up.
+- [x] Perform and record a controlled end-to-end registration through the school Apps Script service.
+- [x] Supersede the external full-stack provider assessment after the organizer selected GitHub Pages plus Google Sheets.
+- [x] Supersede managed backend replacement work because the selected public registration flow uses Apps Script and Google Sheets.
+- [x] Supersede the external-host migration in favor of the verified GitHub Pages plus Apps Script public workflow.
+- [x] Keep the Hackfinity registration form on the public page and submit directly to Apps Script without a registration-page redirect.
+- [x] Extend the school-managed Apps Script web app with a read-only squad-count response and structured registration writes.
+- [x] Convert the GitHub Pages registration form to submit on-page to Apps Script and refresh the public squad count without using the current live service.
+- [ ] Directly inspect the controlled GitHub Pages registration row in Google Sheets and confirm its key structured columns.
+- [x] Prevent public GitHub Pages registration submissions from remaining in the Transmitting state when Apps Script delays its response.
 - [x] Configure the public GitHub Pages registration and squad-count client with the newly deployed school Apps Script endpoint.

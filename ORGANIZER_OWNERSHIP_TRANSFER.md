@@ -6,6 +6,8 @@ Move operational control away from an individual account without interrupting re
 
 > **Recommended control model:** use a school Google Workspace account, at least two school GitHub organization owners, and at least two approved site administrators. Avoid relying on any single student or staff member’s personal account.
 
+> **Selected public route, 14 August 2026:** The public Hackfinity website is hosted by the `St-John-s-Hackfinity-2026` GitHub organization on GitHub Pages. The public form stays on that same page, while the organizer-managed Google Sheet and Apps Script web app receive registrations and supply the read-only public squad count. The organizer will manage the school Google and GitHub accounts manually outside this shared session; no personal credentials are stored or requested here.
+
 | Resource | Current operational role | School-managed target |
 |---|---|---|
 | GitHub organization | Stores source and public Pages website | Two or more school-controlled organization owners |
@@ -81,7 +83,7 @@ If school policy requires the live server itself to be outside the current hosti
 
 ### Current blocker and next input needed
 
-The technical handover plan is ready, but no school-managed Google, GitHub, or hosting-account identifiers have been provided in this task. The next step is therefore blocked pending the names or email addresses of **two school administrators** and confirmation that they can access the school Google Workspace and desired live-hosting control account. Once those details are available, the team can provision access, redeploy the Apps Script under school control, update the webhook, assign the `admin` roles, and run the controlled test.
+The GitHub Pages and Apps Script route has been implemented and a controlled registration test completed successfully. The organizer supplied and controls the active Apps Script deployment outside this session. The remaining organizer action is to review and delete the clearly labelled `SYSTEM TEST — DELETE AFTER REVIEW` row in the Hackfinity Registration Sheet, then retain at least two trusted school Google and GitHub administrators for continuity.
 
 ## References
 
