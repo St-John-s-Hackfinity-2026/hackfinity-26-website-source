@@ -103,3 +103,6 @@
 - [x] Prevent phone numbers beginning with a plus sign from being interpreted as Google Sheets formulas in Apps Script registrations.
 - [x] Prevent public GitHub Pages registration submissions from remaining in the Transmitting state when Apps Script delays its response.
 - [x] Configure the public GitHub Pages registration and squad-count client with the newly deployed school Apps Script endpoint.
+- [x] Add a prominent on-page registration success panel with clear confirmation and next steps.
+- [x] Provide an organizer command-center access path matching the supplied cyberpunk dashboard reference while keeping student registration data private.
+- [x] Provide and verify a GitHub Pages-safe organizer command-center URL using the static-compatible `?view=organizer` route.
