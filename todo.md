@@ -100,3 +100,4 @@
 - [ ] Extend the school-managed Apps Script web app with a read-only squad-count response and preserve structured registration writes.
 - [ ] Convert the GitHub Pages registration form to submit on-page to Apps Script and refresh the public squad count without using the current live service.
 - [ ] Deploy and verify a controlled same-page registration from GitHub Pages through to the Google Sheet.
+- [x] Configure the public GitHub Pages registration and squad-count client with the newly deployed school Apps Script endpoint.
