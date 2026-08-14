@@ -106,7 +106,7 @@
 - [x] Add a prominent on-page registration success panel with clear confirmation and next steps.
 - [x] Provide an organizer command-center access path matching the supplied cyberpunk dashboard reference while keeping student registration data private.
 - [x] Provide and verify a GitHub Pages-safe organizer command-center URL using the static-compatible `?view=organizer` route.
-- [ ] Add a privacy-safe registrations list to the public organizer command center, with protected Google Sheet access for full student records.
+- [x] Add a privacy-safe registrations list to the public organizer command center, with protected Google Sheet access for full student records.
 - [x] Center the Visible Squads count label and value in the organizer command-center header.
 - [x] Recolor the public site and organizer command center with St. John’s red, yellow, and white while preserving all existing effects and interactions.
 - [x] Replace the remaining cyan/blue thunder, timeline-fill, bounty, FAQ, and registration-control styling with St. John’s red, yellow, and white accents.
@@ -114,5 +114,5 @@
 - [x] Remove the public registration notice about Google Sheets and simplify the footer to © 2026 St. John’s School, Anchal without an organizer-hub link.
 - [x] Replace the remaining cyan timeline active fill with St. John’s yellow/red/white feedback on both mobile and laptop views.
 - [x] Fix all timeline outline numerals, 01–05, so their active states render completely without clipping on mobile or laptop views.
-- [ ] Replace the remaining cyan mobile timeline active fill with St. John’s yellow/red/white feedback for all five phase cards.
-- [ ] Fix the mobile timeline’s 01–05 outline numerals so active states do not clip or leave portions of any numeral unrendered.
+- [x] Replace the remaining cyan mobile timeline active fill with St. John’s yellow/red/white feedback for all five phase cards.
+- [x] Fix the mobile timeline’s 01–05 outline numerals so active states do not clip or leave portions of any numeral unrendered.
