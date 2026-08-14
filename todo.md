@@ -112,3 +112,7 @@
 - [x] Replace the remaining cyan/blue thunder, timeline-fill, bounty, FAQ, and registration-control styling with St. John’s red, yellow, and white accents.
 - [x] Remove Hack Club wording and describe the event only as organized by St. John’s School, Anchal.
 - [x] Remove the public registration notice about Google Sheets and simplify the footer to © 2026 St. John’s School, Anchal without an organizer-hub link.
+- [x] Replace the remaining cyan timeline active fill with St. John’s yellow/red/white feedback on both mobile and laptop views.
+- [x] Fix all timeline outline numerals, 01–05, so their active states render completely without clipping on mobile or laptop views.
+- [ ] Replace the remaining cyan mobile timeline active fill with St. John’s yellow/red/white feedback for all five phase cards.
+- [ ] Fix the mobile timeline’s 01–05 outline numerals so active states do not clip or leave portions of any numeral unrendered.
