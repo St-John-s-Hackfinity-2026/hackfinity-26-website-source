@@ -109,3 +109,6 @@
 - [ ] Add a privacy-safe registrations list to the public organizer command center, with protected Google Sheet access for full student records.
 - [x] Center the Visible Squads count label and value in the organizer command-center header.
 - [x] Recolor the public site and organizer command center with St. John’s red, yellow, and white while preserving all existing effects and interactions.
+- [x] Replace the remaining cyan/blue thunder, timeline-fill, bounty, FAQ, and registration-control styling with St. John’s red, yellow, and white accents.
+- [x] Remove Hack Club wording and describe the event only as organized by St. John’s School, Anchal.
+- [x] Remove the public registration notice about Google Sheets and simplify the footer to © 2026 St. John’s School, Anchal without an organizer-hub link.
